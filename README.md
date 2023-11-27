@@ -1,18 +1,18 @@
 # Introduction
-
-This document explains how to run a performance test with JMeter against an simplelearn.com. an overview of the load testing, stress testing.
+This is about Performance testing using Jmeter.This document explains how to do a performance test .an overview of the load testing, stress testing.
+with JMeter against an simplelearn.com.
 # Content
 ### Summary
-- While executed 400 concurrent request, found  7 request got connection timeout and error rate is 0.40%.
-- Server can handle almost concurrent 300 API call with almost zero (0) error rate.
+- While executed 200,300,400 concurrent request, around found  17 request got connection timeout and error rate is 0.40%.
+- Server can handle almost concurrent 300 API call with almost zero (0) error rate.an overview of the load testing, stress testing.
 
 # Load testing Report
 
 | Concurrent Request  | Loop Count | Avg TPS for Total Samples  | Error Rate | Total Concurrent API request |
 |               :---: |      :---: |                      :---: |                        :---: |      :---: |
-| 200  | 1  | 2.7  | 0%      | 1000   |
-| 300  | 1  |  4.4     | 0%      | 1500   |
-| 400  | 1  |  8    | 0.35%   | 2000   |
+| 200  | 1  | 2.5  | 0%      | 1000   |
+| 300  | 1  |  4.7     | 0%      | 2000   |
+| 400  | 1  |  9   | 0.40%   | 2500   |
 
 
 # Install
